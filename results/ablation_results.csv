@@ -1,0 +1,6 @@
+name,keep_ratio,accuracy,flops_M,params_M,latency_ms,memory_MB
+Teacher (no pruning),1.0,0.358,154.79,2.385,16.08,13.67
+Student (keep_ratio=0.9),0.9,0.464,49.17,0.801,6.98,4.6
+Student (keep_ratio=0.7),0.7,0.522,44.01,0.801,13.24,4.6
+Student (keep_ratio=0.5),0.5,0.4493,39.25,0.801,7.17,4.6
+Student (keep_ratio=0.3),0.3,0.4473,34.09,0.801,7.84,4.6

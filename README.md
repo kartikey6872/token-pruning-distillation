@@ -84,7 +84,7 @@ The Streamlit app (`app.py`) lets you upload an image and see the teacher and st
 
 ## Notes on Scope
 
-This project was built to demonstrate the compression *technique* and methodology end-to-end on constrained hardware (CPU-only, 8GB RAM) — trained on a subset of CIFAR-10 (5,000–10,000 images, 20 epochs) rather than the full dataset or a large-scale benchmark. Absolute accuracy is modest by design; the relative comparison across pruning ratios (the ablation trade-off curve) is the core contribution.
+This project was built to demonstrate the compression *technique* and methodology end-to-end on constrained hardware  — trained on a subset of CIFAR-10 (5,000–10,000 images, 20 epochs) rather than the full dataset or a large-scale benchmark. Absolute accuracy is modest by design; the relative comparison across pruning ratios (the ablation trade-off curve) is the core contribution.
 
 ## Tech Stack
 
